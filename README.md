@@ -20,7 +20,6 @@ A modern, prioritized todo application built with Next.js and Supabase.
 1. Clone the repository
 2. Install dependencies:
 
-
 npm install
 # or
 yarn install
@@ -29,8 +28,9 @@ pnpm install
 # or
 bun install
 
+3. Set up your Supabase project and update the credentials in `lib/supabase.ts`
 
-First, run the development server:
+4. Run the development server:
 
 
 npm run dev
@@ -62,3 +62,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+## Project Structure
+
+- `components/ui/`: Custom UI components (Button, Input, Textarea)
+- `lib/`: Utility functions and configurations
+- `next.config.js`: Next.js configuration
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[MIT License](LICENSE)
