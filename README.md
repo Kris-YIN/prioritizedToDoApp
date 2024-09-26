@@ -1,10 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prioritized Todo App
+
+A modern, prioritized todo application built with Next.js and Supabase.
+
+## Features
+
+- Create, read, update, and delete todo items
+- Prioritize tasks for efficient task management
+- Real-time updates using Supabase
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Supabase for backend and real-time functionality
+- Custom UI components
 
 ## Getting Started
 
+1. Clone the repository
+2. Install dependencies:
+
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+
 First, run the development server:
 
-```bash
+
 npm run dev
 # or
 yarn dev
@@ -12,7 +40,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
